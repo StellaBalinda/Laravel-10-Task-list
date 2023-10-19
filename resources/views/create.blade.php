@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Filling Form')
+@section('title', 'Add a New Task')
 
 @section('content')
     <form method="POST" action=" {{route('tasks.store')}} ">
